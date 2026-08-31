@@ -1,0 +1,4 @@
+.myst/
+# *.ipynb # Ignora todos los archivos con terminación .ipynb
+.claude
+*.parquet
