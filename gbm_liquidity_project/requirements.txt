@@ -1,0 +1,14 @@
+yfinance>=0.2.40
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+pytest>=7.4
+
+# Download one day of 1-minute bars for a liquid and an illiquid ticker.
+#Plot high-minus-low per bar as a proxy for tightness. Compare the distributions.
+#Simulate 10,000 GBM paths, calibrating 
+#from realized returns. Verify the mean/median identity.
+#In one paragraph: which BSM assumption did your simulation violate most, and how would you detect it numerically?
+
+
