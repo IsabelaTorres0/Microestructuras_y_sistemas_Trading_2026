@@ -50,6 +50,7 @@ def add_indicators(df: pd.DataFrame):
     out = df.copy()
     out["sma_10"] = sma(df, 10)
     out["sma_40"] = sma(df, 40)
+    out["sma_100"] = sma(df, 100)
     out["ema_20"] = ema(df,20)
     out = out.join(bollinger(df, 20, 2.5))
     out["atr_14"] = atr(df, 14)
