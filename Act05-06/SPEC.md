@@ -90,6 +90,7 @@ nocional  = min(acciones × E, equity_t)      # tope 1× equity: spot, sin apala
 - Capital inicial: **$100,000**. Se permiten fracciones de BTC.
 - El riesgo presupuestado es la pérdida de precio si se toca el SL, **sin incluir costos**.
 - Con SL mediano ≈ 29 bps, el nocional típico es ≈ 0.34× equity. El tope de 1× solo se activa cuando `4·ATR < 10 bps`, lo que ocurre en ~5% de las barras. En ese caso el riesgo real es menor al presupuestado y la operación se marca con `capped = True`.
+# Calcular sizing con rho
 
 ---
 
